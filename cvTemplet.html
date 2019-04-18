@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="lib/bootstrap.css">
+    <title>Document</title>
+
+<style>
+    body{
+    background-image: url("bg2.jpg");
+    background-size: cover;
+    color: black;
+}
+.perInfoTab{
+    width: 300px !important;
+}
+.tecSkilTab{
+    width: 500px !important;
+}
+td,th{
+    padding: 0% !important;
+}
+h3{
+    text-align: center;
+    background-color: gray;
+}
+.careerObjective,.personalInformation,.personalSummary,.techinalSkills,.academicInfo{
+    background-color: rgba(224, 214, 214, 0.822);
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+    opacity: 0.8;
+    padding: 10px;
+}
+</style>
+
+</head>
+<body>
+    <div id="bodyDiv">
+        <div class="personalInformation">
+            <h2 id="fullName"></h2>            
+            <table class="table perInfoTab">
+                <tbody>
+                    <tr>
+                    <th scope="row">Email : </th>
+                    <td id="email"></td>
+                    </tr>
+                    <tr>
+                    <th scope="row">Cell # :</th>
+                    <td id="cnumber"></td>
+                    </tr>
+                    <tr>
+                    <th scope="row">Address :</th>
+                    <td id="address"></td>
+                    </tr>
+                    <tr>
+                    <th scope="row">CNIC :</th>
+                    <td id="cnicNumber"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+            <div class="careerObjective">
+                <h3 class="carObj"> Career objective</h3>
+                <p id="carrerObjective"></p>
+
+            </div>
+
+            <div class="personalSummary">
+                <h3 class="perSummary"> Personal Summary</h3>
+                <ul>
+                    <li id="ps1"></li>
+                    <li id="ps2"></li>
+                    <li id="ps3"></li>
+                </ul>
+            </div>
+            <div class="techinalSkills">
+                <h3 class="techSkills">Techinal Skills</h3>
+                <table class="table tecSkilTab">
+                        <tbody>
+                            <tr>
+                            <th scope="row" id="tst1" width="100px;"></th>
+                            <td id="tsd1"></td>
+                            </tr>
+                            <tr>
+                            <th scope="row" id="tst2"></th>
+                            <td id="tsd2"></td>
+                            </tr>
+                            <tr>
+                            <th scope="row" id="tst3"></th>
+                            <td id="tsd3"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </div>
+            <div class="academicInfo">
+                <h3 class="academicQual">Academic Qualifications</h3>
+                <table class="table ">
+                    <thead class="thead-light">
+                        <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Degree</th>
+                        <th scope="col">Disipline</th>
+                        <th scope="col">Institute</th>
+                        <th scope="col">Year</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <th scope="row">1</th>
+                        <td id="dg1"></td>
+                        <td id="ds1"></td>
+                        <td id="in1"></td>
+                        <td id="yr1"></td>
+                        </tr>
+                        <tr>
+                        <th scope="row">2</th>
+                        <td id="dg2"></td>
+                        <td id="ds2"></td>
+                        <td id="in2"></td>
+                        <td id="yr2"></td>
+                        </tr>
+                        <tr>
+                        <th scope="row">3</th>
+                        <td id="dg3"></td>
+                        <td id="ds3"></td>
+                        <td id="in3"></td>
+                        <td id="yr3"></td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+
+    </div>
+    
+</body>
+
+    <script src="lib/jquery.js"></script>
+    <script src="lib/popper.js"></script>
+    <script src="lib/boot.js"></script>
+    <script src="cvtem.js"></script>
+
+
+</html>

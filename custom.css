@@ -1,0 +1,31 @@
+body{
+    background-image: url("bg2.jpg");
+    background-size: cover;
+}
+input{
+}
+
+.form-control{
+    opacity: 0.8;
+    color: black;
+    /* background: transparent; */
+}
+small{
+    color: red;
+}
+.selector{
+    width: 10%;
+}
+.body{
+    margin-left: 30%;
+}
+hr{
+    width: 300px;
+    text-align: center;
+    color: black;
+}
+.btnDiv{
+    float: right;
+    margin-right: 20%;
+    margin-bottom: 20px;
+}
